@@ -1,0 +1,132 @@
+/* General Page Styling */
+body {
+  background-color: #121212; /* Dark background */
+  color: #ffffff; /* White text */
+  font-family: Arial, sans-serif;
+}
+
+h2.form-header {
+  color: #ffffff; /* White color for header */
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+/* Form Styling */
+.student-form {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #1e1e1e; /* Dark gray background for the form */
+  border-radius: 10px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  color: #ffffff;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #333333; /* Darker input field */
+  color: #ffffff; /* White text inside input */
+  border-radius: 5px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.btn-submit {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50; /* Green submit button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background-color: #45a049;
+}
+
+.error-text {
+  color: red;
+  font-size: 12px;
+}
+
+/* Table Styling */
+.student-table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #2c2c2c;
+  color: #ffffff;
+}
+
+.student-table th, .student-table td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #444444; /* Borders between table cells */
+}
+
+.student-table th {
+  background-color: #333333; /* Darker header background */
+}
+
+.student-table td {
+  background-color: #1f1f1f; /* Darker cell background */
+}
+
+.student-table th button {
+  background: none;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.student-table th button:hover {
+  color: #00bcd4; /* Hover color for sort buttons */
+}
+
+.pagination {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.pagination button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  margin: 0 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.pagination button:hover {
+  background-color: #45a049;
+}
+
+.pagination .active {
+  background-color: #2196f3;
+  color: white;
+}
+
+.search-input {
+  width: 300px !important;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #333333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
